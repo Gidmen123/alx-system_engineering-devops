@@ -1,2 +1,2 @@
 #!/bin/bash
-cat twofiles
+cat /etc/passwd /etc/hosts
