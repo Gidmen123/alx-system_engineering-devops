@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# A script that loops through 1 to 10 using while
+
+d=1
+
+while [ $d -le 10 ]
+do
+    if [ $d -eq 4 ]
+    then
+        echo "bad luck"
+    elif [ $d -eq 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((d++))
+done
